@@ -11,7 +11,7 @@ function playGame() {
     stage++;
     range++;
     point++;
-    console.log("\n----\n----\nCorrect. Good job", username,"\n\nYou just earn 1 point", "\n\You are now in stage", stage, "\nWait for the next game >>>\n\n");
+    console.log("\n----\n----\nCorrect. Good job", username,"\n\nYou just earned 1 point", "\n\You are now in stage", stage, "\nWait for the next game >>>\n\n");
 
     setTimeout(() => { playGame() }, 2000)
   } else {
